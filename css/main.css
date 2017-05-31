@@ -153,10 +153,11 @@ footer{
 
 
 .galeria i{
-  position: absolute;
+  position: fixed;
   top: 80px;
   color: rgb(62, 161, 169);
   font-size: 50px;
+  margin-left: 250px;
 }
 
 .esconder{

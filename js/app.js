@@ -21,6 +21,13 @@
  			cerrar.addEventListener("click", function(){
  				nuevoDiv.classList.add("esconder");
  			})
+
+ 			window.addEventListener("keydown", function(){ //eliminando elementos tecleando
+ 				nuevoDiv.classList.add("esconder");
+ 			})
+ 			window.addEventListener("mousedown", function(){ //eliminando elementos cuando hacemos click fuera
+ 				nuevoDiv.classList.add("esconder");
+ 			})
   		})
   	})
  
