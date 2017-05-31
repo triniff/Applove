@@ -105,7 +105,9 @@ header{
 .box-services h6{
   margin-top: 0;
 }
-
+.col-4{
+  cursor: pointer;
+}
 
 /*seccion Work*/
 #work{
@@ -128,4 +130,23 @@ footer{
   background-color: #373b47;
   color: white;
   padding-top: 7px;
+}
+
+
+/*CREANDO GALERIA*/
+.galeria {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: grey;
+}
+
+.fa-times-circle-o{
+  float: right;
+  color: red;
+}
+
+.esconder{
+  display: none;
 }
